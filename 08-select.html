@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <h2>Select your favorite course.</h2>
+    <form action="#">
+    <label for="Course">course</label>
+        <select name="course">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+            <option value="php">php</option>
+            <option value="python">python</option>
+            <option value="java">java</option>
+        </select>
+
+        <label for="food">Food</label>
+        <select name="food" id="food">
+            <optgroup label="Fruits">
+                <option value="banana">banana</option>
+                <option value="apple">apple</option>
+                <option value="orange">orange</option>
+            </optgroup>
+
+            <optgroup label="Meats">
+                <option value="pork">pork</option>
+                <option value="beef">beef</option>
+                <option value="chicken">chicken</option>
+            </optgroup>
+        </select>
+
+        <label for="color">Color</label>
+        <select name="color" id="color" multiple size="1">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="black">black</option>
+                <option value="pink">pink</option>
+        </select>
+        <button>save</button>
+    </form>
+</body>
+</html>
